@@ -76,12 +76,12 @@ When only one Team Member is completing steps, the others are expected to contri
 
 1. The Lead Team Member will:
   - Go to the Documents section on [Bb](https://mybb.gvsu.edu)
-  - Click on the link titled `activity0201`
+  - Click on the link titled `activity0201-summarize-manipulate`
   - **Create a new team** by typing your team name (use lower-case letters for consistency) then clicking on the green button "+ Create team"
   - Once the your screen says "You are ready to go!" have all other team members follow Step 2.
 2. *All other* Team Members now will:
   - Go to the Documents section on [Bb](https://mybb.gvsu.edu)
-  - Click on the link titled `activity0201`
+  - Click on the link titled `activity0201-summarize-manipulate`
   - Click on the "Join" button next to your corresponding team name in the **Join an existing team** section
 3. *All* Team Members now will:
   - In your team repo, click the green **Clone or download** button, select "Use HTTPS" if this isn't the default option, and click on the clipboard icon to copy the repo URL
@@ -134,31 +134,43 @@ However, recall from Activity 1.1 that a **merge conflict** occurs when a merge 
 We previously saw how to handle this individually, but let's explore this in a more pratical situation.
 
 1. Every Team Member should have the activity's `.Rmd` file open.
-2. Assign a number 1, 2, 3, 4 to each Team Member.
+2. Assign a number 1, 2, 3, 4, 5 (or 6 if you have 6 members) to each Team Member.
 3. Take turns completing these next steps, one member at a time.
   Help each other out!
-  - Member 1: Change the team name to your actual name.
+  - *Member 1*: Change the team name to your actual name.
     Knit, commit, push.
-  - Member 2: Change the team name to some other word.
+  -* Member 2*: Change the team name to some other word.
     Knit, commit, push - you should get an error.
     Pull.
     Take a look at the document with the merge conflict.
     Clear the merge conflict by choosing the correct/preferred change.
     Commit, push.
-  - Member 3: Change the name of the first code chunk (i.e., `{r }`).
+  - *Member 3*: Change the name of the first code chunk (i.e., the `load-packages` portion of `{r load-packages, message=FALSE}`).
     Knit, commit, push.
     You should get an error.
     Pull.
     No merge conflicts should occur.
     Now push.
-  - Member 4: Add a different name to the first code chunk.
+  - *Member 4*: Add a different name to the first code chunk.
     Knit, commit, push.
     You should get an error.
     Pull.
     Take a look at the document with the merge conflict.
     Clear the merge conflict by choosing the correct/preferred change.
     Commit, push.
-    
+  - *Member 5*:  Change the "Excercise 1" header to "Exercise 01".
+    Knit, commit, push.
+    You should get an error.
+    Pull.
+    No merge conflicts should occur.
+    Now push.
+  - *Member 6*: Change the "Excercise 1" header to "Exercise One".
+    Knit, commit, push.
+    You should get an error.
+    Pull.
+    Take a look at the document with the merge conflict.
+    Clear the merge conflict by choosing the correct/preferred change.
+
 **Thought Question 2**:
 Based on these previous tasks, what would be your recommended workflow for collaborating with git/GitHub?
 
