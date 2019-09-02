@@ -1,5 +1,5 @@
 ---
-title: "Lab 02 - Exploratory Data Analysis: Summarizing and Manipulating"
+title: "Activity 2.1 - Exploratory Data Analysis: Summarizing and Manipulating"
 author: "INSERT TEAM NAME HERE"
 date: "INSERT TODAY'S DATE HERE"
 output: 
