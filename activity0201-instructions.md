@@ -139,7 +139,7 @@ We previously saw how to handle this individually, but let's explore this in a m
   Help each other out!
   - *Member 1*: Change the team name to your actual name.
     Knit, commit, push.
-  -* Member 2*: Change the team name to some other word.
+  - *Member 2*: Change the team name to some other word.
     Knit, commit, push - you should get an error.
     Pull.
     Take a look at the document with the merge conflict.
